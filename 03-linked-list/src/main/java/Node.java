@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class Node {
+public class Node {
+    int id;
+    Node next;
+
+    public Node(int id) {
+        this.id = id;
+    }
 }

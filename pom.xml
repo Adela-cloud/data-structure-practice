@@ -7,6 +7,12 @@
     <groupId>com.cydeo</groupId>
     <artifactId>data-structure-practice</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>dsa-01-AlgorithmAnalysis</module>
+        <module>02-collections-review</module>
+        <module>03-linked-list</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
